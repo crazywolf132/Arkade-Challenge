@@ -49,7 +49,7 @@ class core {
 						// We are going to make a base product...
 						let Product = this.genBaseProduct(
 							ingredient.strIngredient1,
-							ingredient.strDrinkThumb
+							ingredient.strDrinkThumb || ''
 						);
 
 						// We are now going to get all the cocktails you can make with that ingredient...
