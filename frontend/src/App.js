@@ -1,9 +1,7 @@
 import React from 'react';
 import LeftBarComponent from 'components/LeftBar/LeftBar';
 import SearchBarComponent from 'components/searchBar/SearchBar';
-import ProductComponent from 'components/Product/Product';
 import ProductZoneComponent from 'components/Product/ProductZone';
-import CocktailComponent from 'components/information/Cocktail';
 
 function App() {
   return (
@@ -13,7 +11,6 @@ function App() {
         <SearchBarComponent />
         <ProductZoneComponent />
       </div>
-      {/* <CocktailComponent /> */}
     </div>
   );
 }
