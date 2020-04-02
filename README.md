@@ -12,6 +12,20 @@ The search part of the frontend is achieved using the following `https://www.the
 
 > There is 1 known issue with the search bar. When you clear out the search bar... (pressing backspace), and then press it again once emptied... react will treat that as its not empty, and perform a search. I didn't see this a pressing issue at the time of submission so I left it.
 
+### How to run
+
+Using YARN
+
+```bash
+    yarn && yarn start
+```
+
+Using NPM
+
+```bash
+    npm i && npm start
+```
+
 ## Backend
 
 Unlike what the task asked for, I did not complete this in PHP. Instead i elected to work in `NODEJS` as the job description stated that this was used aswell. I went with NODE over PHP as it was already installed on my mac, but I also felt it better suited this task. Though im sure many languages could do this task.
@@ -22,6 +36,20 @@ The backend has a class inside `Core.JS` that is used for everything (it is a si
 
 The server runs on port `8080` and there is a `GET` endpoint setup as `/products` to get all the products that are on the store.
 `http://localhost:8080/products`
+
+### How to run
+
+Using YARN
+
+```bash
+    yarn && yarn dev
+```
+
+Using NPM
+
+```bash
+    npm i && npm dev
+```
 
 ## Notes
 
