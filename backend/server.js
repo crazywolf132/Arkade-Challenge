@@ -42,6 +42,8 @@ app.use(
                                                     
  
 */
+import router from './routes/service';
+app.use('/', router);
 
 core.generateAllProducts();
 
